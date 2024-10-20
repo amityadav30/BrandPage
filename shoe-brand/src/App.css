@@ -1,0 +1,84 @@
+.titleBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+  /* background-color: red;` */
+}
+
+.navItems {
+  display: flex;
+  gap: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.loginBtn {
+  padding: 6px 16px;
+  background-color: #d01c28;
+  color: white;
+  border: none;
+}
+
+.heroContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroContent {
+  margin: 0;
+  display: flex;
+}
+
+.heroText {
+  width: 50%;
+}
+
+.heroTitle {
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+  margin-bottom: 36px;
+}
+
+.heroDescription {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.heroButtons {
+  padding-top: 36px;
+  margin-bottom: 36px;
+}
+
+.shopNowBtn {
+  padding: 6px 16px;
+  background-color: #d01c28;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.categoryBtn {
+  padding: 6px 16px;
+  margin-left: 40px;
+  color: #5a5959;
+  background-color: #ffffff;
+  border: 1px solid #5a5959;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.availabilityText {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.logoImage {
+  margin-left: 16px;
+}
